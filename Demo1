@@ -1,0 +1,10 @@
+import turtle
+seanPen = turtle.Pen()
+seanPen.speeed(0)
+
+for i in range(90):
+  for j in range(4):
+    seanPen.forward(100)
+    seanPen.left(90)
+  seanPen.left(4)
+turtle.done()
